@@ -1,4 +1,5 @@
 import { Button } from "./ui/button"
+import { ArrowUpRight } from "lucide-react"
 
 export function TrendingProjects() {
   const projects = [
@@ -39,9 +40,16 @@ export function TrendingProjects() {
             style={{ top: `calc(6rem + ${i * 2}rem)` }}
           >
             <div className="p-6 md:p-12 lg:p-16 space-y-4 md:space-y-8">
-              <h3 className="text-2xl md:text-4xl lg:text-5xl font-bold max-w-2xl leading-tight">
-                {project.title}
-              </h3>
+              <div className="flex justify-between items-start gap-4">
+                <h3 className="text-2xl md:text-4xl lg:text-5xl font-bold max-w-2xl leading-tight">
+                  {project.title}
+                </h3>
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex-shrink-0">
+                  <Button size="icon" className="rounded-full w-12 h-12 md:w-16 md:h-16 bg-white/10 hover:bg-white/20 border border-white/20 text-white backdrop-blur-sm transition-all duration-300 hover:scale-105">
+                    <ArrowUpRight className="w-6 h-6 md:w-8 md:h-8" />
+                  </Button>
+                </a>
+              </div>
               <div className="flex flex-wrap gap-2 md:gap-3">
                 {project.tags.map((tag, j) => (
                   <span key={j} className="px-3 md:px-4 py-1.5 md:py-2 rounded-full border border-white/20 text-xs md:text-sm font-medium bg-white/10 backdrop-blur-sm">

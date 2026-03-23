@@ -1,4 +1,4 @@
-import { Mail, Instagram } from "lucide-react"
+import { Mail } from "lucide-react"
 
 export function Footer() {
   return (
@@ -35,10 +35,6 @@ export function Footer() {
             </svg>
             <span className="sr-only">X (Twitter)</span>
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-black transition-colors">
-            <Instagram className="w-6 h-6" strokeWidth={1.5} />
-            <span className="sr-only">Instagram</span>
-          </a>
           <a href="https://wa.me/9581341643" target="_blank" rel="noopener noreferrer" className="text-[#25D366] hover:opacity-80 transition-opacity">
             <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
@@ -62,8 +58,6 @@ export function Footer() {
         {/* Copyright */}
         <div className="text-xs md:text-sm text-[#4a5568] flex flex-wrap items-center justify-center gap-1.5 text-center">
           <span>© 2026 Made with <span className="text-red-500">❤️</span> by <span className="font-bold text-black">Nikhil Adithya Kumar</span></span>
-          <span className="hidden md:inline text-gray-400">|</span>
-          <span className="font-bold text-[#2d3748]">NIKHIL TECHNOLOGIES LIMITED</span>
         </div>
       </div>
     </footer>
