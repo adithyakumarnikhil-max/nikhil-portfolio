@@ -3,8 +3,8 @@ import { IconCloud } from "./IconCloud"
 
 export function Hero() {
   return (
-    <section className="min-h-[calc(100vh-4rem)] py-4 md:py-10 flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-4 lg:gap-12">
-      <div className="flex-1 max-w-3xl space-y-4 text-center lg:text-left">
+    <section className="min-h-0 lg:min-h-[calc(100vh-4rem)] py-12 md:py-20 flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-12 lg:gap-12">
+      <div className="w-full lg:flex-1 max-w-3xl space-y-6 md:space-y-4 text-center lg:text-left">
         <h1 className="text-xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-[1.2] tracking-tighter">
           AI & Product Analytics Enthusiast <span className="text-gray-300 font-light mx-1 md:mx-2">|</span> 
           vibe coder <span className="text-gray-300 font-light mx-1 md:mx-2">|</span> 
@@ -30,7 +30,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="relative w-full max-w-[160px] md:max-w-[240px] lg:max-w-[320px] aspect-square flex-shrink-0 mx-auto lg:mx-0">
+      <div className="relative w-full max-w-[200px] md:max-w-[320px] lg:max-w-[400px] aspect-square flex-shrink-0 mx-auto lg:mx-0">
         <div className="absolute inset-0 flex items-center justify-center">
            <IconCloud />
         </div>
