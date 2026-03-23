@@ -30,7 +30,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="relative w-full max-w-[200px] md:max-w-[320px] lg:max-w-[400px] aspect-square flex-shrink-0 mx-auto lg:mx-0">
+      <div className="relative w-full max-w-[280px] md:max-w-[320px] lg:max-w-[400px] aspect-square flex-shrink-0 mx-auto lg:mx-0">
         <div className="absolute inset-0 flex items-center justify-center">
            <IconCloud />
         </div>
