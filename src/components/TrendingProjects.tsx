@@ -18,11 +18,11 @@ export function TrendingProjects() {
       link: "https://creodesigners.com/"
     },
     {
-      title: "CRM Application for Wholesale Rice Mill",
-      tags: ["Salesforce", "CRM", "Cloud", "Automation", "+4 More"],
+      title: "Multimodal RAG Chat Application",
+      tags: ["RAG", "Pinecone", "AI Chat", "Embeddings", "Multimodal"],
       bg: "bg-indigo-950 text-white",
-      image: "https://picsum.photos/seed/project3/800/600",
-      link: "#"
+      image: "https://image.thum.io/get/width/1200/crop/700/https://embedding-rag-j7ow.onrender.com/",
+      link: "https://embedding-rag-j7ow.onrender.com/"
     }
   ]
 
@@ -70,12 +70,6 @@ export function TrendingProjects() {
             </div>
           </div>
         ))}
-      </div>
-
-      <div className="flex justify-center pt-8">
-        <Button size="lg" className="rounded-full bg-red-500 hover:bg-red-600 text-white border-none">
-          View all projects
-        </Button>
       </div>
     </section>
   )

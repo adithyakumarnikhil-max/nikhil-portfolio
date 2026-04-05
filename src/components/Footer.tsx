@@ -19,7 +19,7 @@ export function Footer() {
           
           {/* Bio Text */}
           <p className="text-[#4a5568] leading-relaxed text-sm md:text-base font-medium">
-            Hi, I'm Nikhil Adithya Kumar — an AI & Product Analytics Enthusiast who loves crafting intelligent workflow automations. I specialize in building data-driven systems that simplify workflows and enhance business efficiency. With a strong eye for detail and a builder's mindset, I turn data into scalable decisions. Always curious, always creating — let's shape the future of tech together.
+            Hi, I'm Nikhil Adithya Kumar, an AI & Product Analytics Enthusiast who loves crafting intelligent workflow automations. I specialize in building data-driven systems that simplify workflows and enhance business efficiency. With a strong eye for detail and a builder's mindset, I turn data into scalable decisions. Always curious, always creating, let's shape the future of tech together.
           </p>
         </div>
 

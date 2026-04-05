@@ -1,10 +1,8 @@
 import { Navbar } from "./components/Navbar"
 import { Hero } from "./components/Hero"
 import { BentoGrid } from "./components/BentoGrid"
-import { WorkExperience } from "./components/WorkExperience"
 import { TrendingProjects } from "./components/TrendingProjects"
 import { Testimonials } from "./components/Testimonials"
-import { TrustedBy } from "./components/TrustedBy"
 import { CTA } from "./components/CTA"
 import { Footer } from "./components/Footer"
 
@@ -18,10 +16,8 @@ export default function App() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Hero />
         <BentoGrid />
-        <WorkExperience />
         <TrendingProjects />
         <Testimonials />
-        <TrustedBy />
         <CTA />
       </main>
       <Footer />
